@@ -1,0 +1,111 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#titolo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e2450c;
+  font-size: 40px;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#left-box {
+  margin-right: 50px;
+}
+
+#right-box {
+  border: 2px solid #e2450c;
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#btn-submit {
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 8px;
+  background-color: #e2450c;
+  color: white;
+  border-radius: 18px;
+}
+
+#btn-stampa {
+  margin-top: 15px;
+  font-size: 15px;
+  padding: 8px;
+  background-color: #e2450c;
+  color: white;
+  border-radius: 18px;
+}
+
+.content-form {
+  margin: 10px;
+  position: relative;
+}
+
+.age-number {
+  position: left;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#info {
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+table,
+th,
+td {
+  border: 1px solid #000000;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 5px;
+}
+#footer {
+  font-size: 24px;
+  color: #e2450c;
+}
+
+@media only screen and (max-width: 620px) {
+  #titolo {
+    font-size: 20px;
+  }
+  img {
+    width: 130px;
+  }
+  #form-container {
+    display: inline;
+  }
+  #left-box {
+    font-size: 15px;
+  }
+  #right-box {
+    font-size: 15px;
+    width: auto;
+  }
+  table {
+    overflow-y: scroll;
+  }
+  body {
+    padding: auto;
+  }
+}

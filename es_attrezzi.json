@@ -1,0 +1,200 @@
+{
+  "esercizi": [
+    {
+      "nome": "Panca Piana",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Squat con Bilanciere",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Lat Machine",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Leg Press",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Leg Extension",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Curl con Bilanciere",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Pulldown",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Shoulder Press",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Leg Curl",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Calf Raise",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Push-up",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Squat",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Affondi",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Burpees",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Crunch",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Mountain Climbers",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Plank",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Pull-up",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Dips",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Leg Raise",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Bench Dip",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Hanging Knee Raise",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Lunges",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Russian Twist",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Leg Pull-In",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Deadlift",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Triceps Dip",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "High Knees",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Jumping Jacks",
+      "obiettivo": ["Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Box Jump",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Battle Rope",
+      "obiettivo": ["Forza", "Perdita di grasso"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Kettlebell Swing",
+      "obiettivo": ["Forza", "Massa", "Perdita di grasso"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Tuck Jump",
+      "obiettivo": ["Forza", "Perdita di grasso"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Pike Push-up",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Wall Sit",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Farmer's Walk",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Turkish Get-up",
+      "obiettivo": ["Forza", "Massa"],
+      "tipo_di_allenamento": "palestra"
+    },
+    {
+      "nome": "Dragon Flag",
+      "obiettivo": ["Forza"],
+      "tipo_di_allenamento": "corpoLib"
+    },
+    {
+      "nome": "Handstand Push-up",
+      "obiettivo": ["Forza"],
+      "tipo_di_allenamento": "corpoLib"
+    }
+    
+  ]
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Orango GYM" />
+    <meta property="og:description" content="La palestra più forte d'Italia" />
+    <meta property="og:image" content="img/logo_eraser.png" />
+    <title>Orango GYM</title>
+    <link rel="icon" type="image/png" href="img/logo_eraser.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="titolo">
+      <img src="img/loop.gif" alt="logo" width="200" />
+      <h1>Orango GYM</h1>
+    </div>
+    <div id="form-container">
+      <div id="left-box">
+        <form id="training-form">
+          <div class="content-form">
+            <h2>COMPILA QUESTO FORM</h2>
+            <label for="age">Età:</label>
+            <input
+              type="range"
+              id="age"
+              name="age"
+              min="18"
+              max="90"
+              step="1"
+              value="18"
+              required
+            />
+            <span class="age-number">18</span>
+          </div>
+          <div class="content-form">
+            <label for="gender">Sesso:</label>
+            <select id="gender" name="gender" required>
+              <option value="M">Maschio</option>
+              <option value="F">Femmina</option>
+            </select>
+          </div>
+
+          <div class="content-form">
+            <label for="height">Altezza (cm):</label>
+            <input
+              type="number"
+              id="height"
+              name="height"
+              min="100"
+              max="300"
+              value="160"
+              required
+            />
+          </div>
+
+          <div class="content-form">
+            <label for="weight">Peso (kg):</label>
+            <input
+              type="number"
+              id="weight"
+              name="weight"
+              min="20"
+              max="500"
+              value="40"
+              required
+            />
+          </div>
+
+          <!-- Obiettivo -->
+          <div class="content-form">
+            <label for="goal">Obiettivo:</label>
+            <select id="goal" name="goal" required>
+              <option value="Perdita di grasso">Perdita di grasso</option>
+              <option value="Forza">Forza</option>
+              <option value="Massa">Massa</option>
+            </select>
+          </div>
+
+          <!-- Tipo di allenamento -->
+          <div class="content-form">
+            <label>Tipo di allenamento:</label><br />
+            <input type="radio" id="tipoAll" name="tipoAll" value="palestra" required />
+            <label for="palestra">In palestra</label><br />
+            <input type="radio" id="tipoAll" name="tipoAll" value="corpoLib" required/>
+            <label for="corpoLib">A corpo libero</label><br />
+          </div>
+
+          <div class="content-form">
+            <label>Intensità allenamento:</label><br />
+            <input
+              type="radio"
+              id="intensita"
+              name="intensita"
+              value="Facile" required
+            />
+            <label for="facile">Facile</label><br />
+            <input
+              type="radio"
+              id="intensita"
+              name="intensita"
+              value="Intermedio"
+              required
+            />
+            <label for="intermedio">Intermedio</label><br />
+            <input
+              type="radio"
+              id="intensita"
+              name="intensita"
+              value="Difficile"
+              required
+            />
+            <label for="difficile">Difficile</label>
+          </div>
+
+          <button class="content-form" type="button" id="btn-submit">
+            Genera
+          </button>
+        </form>
+      </div>
+      <div id="right-box">
+        <h2>Scheda di Allenamento</h2>
+        <table id="training-table" class="table-work">
+          <thead>
+            <tr>
+              <th>Esercizio</th>
+              <th>Serie</th>
+              <th>Ripetizioni</th>
+              <th>Recupero (sec)</th>
+            </tr>
+          </thead>
+          <tbody id="training-body">
+            <!-- Qui verranno inserite le righe della tabella -->
+          </tbody>
+        </table>
+        <button id="btn-stampa" onclick="stampareTabella()">
+          Stampa Tabella
+        </button>
+      </div>
+    </div>
+    <div id="info">
+      <p>
+        © 2024 Sito realizzato dal gruppo <br /><b id="footer">Orango.best</b
+        ><br />
+        <i
+          >"Luca Rosselli, Riccardo Fanelli, Francesco Iaia, Alessio Marino,
+          Jacopo D'Ancona & Gabriele Randino"</i
+        ><br />
+        Progetto <b>PCTO</b> di <b>Links Management and Technology SPA</b><br />
+        Le immagini sono generate con AI<br />
+        Gli esercizi proposti sono stati generati in modo randomico da un
+        <b>Algoritmo</b><br />
+      </p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
